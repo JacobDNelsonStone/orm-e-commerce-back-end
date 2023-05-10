@@ -15,6 +15,8 @@ router.get('/', async (req, res) => {
         as: 'producttags'
       }]
     });
+    console.log(productData);
+
     res.status(200).json(productData);
   } catch (err) {
     res.status(500).json(err);
@@ -39,6 +41,7 @@ router.get('/:id', async (req, res) => {
       res.status(404).json({ message: 'No product found with that id!' });
       return;
     }
+    console.log(productData);
     res.status(200).json(productData);
   } catch (err) {
     res.status(500).json(err);
