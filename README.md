@@ -1,4 +1,4 @@
-# orm-e-commerce-back-end
+# ORM Based E-Commerce Backend Server
 
 This is my express.JS API e-commerce site backend server and database. This project uses Object Relational Mapping. This is very helpful in making detailed queries to a SQL database. 
 
